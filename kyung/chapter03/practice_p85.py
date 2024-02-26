@@ -1,0 +1,75 @@
+# 3-4 손님 리스트
+print("# 3-4 손님 리스트")
+people = ['양하늘', '구애진', '구희진', '선미진', '김호인', '이진섭']
+print(f"{people[0]}, 초대합니다.")
+print(f"{people[1]}, 초대합니다.")
+print(f"{people[2]}, 초대합니다.")
+print(f"{people[3]}, 초대합니다.")
+print(f"{people[4]}, 초대합니다.")
+print(f"{people[5]}, 초대합니다.")
+print()
+
+# 3-5 손님 리스트 변경
+print("# 3-5 손님 리스트 변경")
+noshow = "선미진"
+print(f"{noshow}, 참가하지 못하게 되었습니다.")
+people[3] = "이조식"
+print(f"{people[0]}, 초대합니다.")
+print(f"{people[1]}, 초대합니다.")
+print(f"{people[2]}, 초대합니다.")
+print(f"{people[3]}, 초대합니다.")
+print(f"{people[4]}, 초대합니다.")
+print(f"{people[5]}, 초대합니다.")
+print()
+
+# 3-6 더 많은 손님
+print("# 3-6 더 많은 손님")
+print(f"{people[0]}, 더 큰 테이블을 찾았습니다.")
+print(f"{people[1]}, 더 큰 테이블을 찾았습니다.")
+print(f"{people[2]}, 더 큰 테이블을 찾았습니다.")
+print(f"{people[3]}, 더 큰 테이블을 찾았습니다.")
+print(f"{people[4]}, 더 큰 테이블을 찾았습니다.")
+print(f"{people[5]}, 더 큰 테이블을 찾았습니다.")
+print()
+people.insert(0, "김푸름")
+people.insert(2, "김시진")
+people.append("최창식")
+print(f"{people[0]}, 초대합니다.")
+print(f"{people[1]}, 초대합니다.")
+print(f"{people[2]}, 초대합니다.")
+print(f"{people[3]}, 초대합니다.")
+print(f"{people[4]}, 초대합니다.")
+print(f"{people[5]}, 초대합니다.")
+print(f"{people[6]}, 초대합니다.")
+print(f"{people[7]}, 초대합니다.")
+print(f"{people[8]}, 초대합니다.")
+print()
+
+# 3-7 배송 지연
+print("# 3-7 배송 지연")
+print("테이블 배송 지연으로 두명만 초대 가능합니다.")
+print()
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+sorry = people.pop()
+print(f"{sorry}, 저녁 식사에 초대할 수 없어 죄송합니다.")
+print()
+
+print(f"{people[0]}, 초대가 아직 취소되지 않았습니다.")
+print(f"{people[1]}, 초대가 아직 취소되지 않았습니다.")
+print()
+
+del people[0]
+del people[0]
+print(people)
+print()
