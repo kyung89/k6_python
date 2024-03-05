@@ -21,6 +21,8 @@ class IceCreamStand(Restaurant):
         for flavor in self.flavors:
             print(flavor)
 
+        print("맛이 {}".format(self.flavors)) # = print(f"맛이 {self.flavors}")
+
 iceCreamStand = IceCreamStand("휘니의 아이스크림 가게", "아이스크림", "딸기맛", "초코맛", "우유맛")
 iceCreamStand.printFlavors()
 print()

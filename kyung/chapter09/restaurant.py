@@ -10,6 +10,6 @@ class Restaurant:
     def open_restaurant(self):
         print(f"Restaurant {self.restaurant_name} is open")
 
-restaurant = Restaurant("홍콩반점", "중국요리")
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+#restaurant = Restaurant("홍콩반점", "중국요리")
+#restaurant.describe_restaurant()
+#restaurant.open_restaurant()
